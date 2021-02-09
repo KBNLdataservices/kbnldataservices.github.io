@@ -6,8 +6,8 @@ Place to inform you about our dataservices, open datasets and collections.
 
 Provide a 
 * central overview 
-* a blog for news and updates
-* public documentation, manuals, tutorials, howto's, Q&A about 
+* a [blog for news and updates](https://kbnldataservices.github.io/blog)
+* [public documentation, manuals, tutorials, howto's, Q&A about](https://kbnldataservices.github.io/public-docs/) 
 * helpdesk and support
 * community & collaboration around 
 
