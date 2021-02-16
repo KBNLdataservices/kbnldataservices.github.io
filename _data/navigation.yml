@@ -1,0 +1,13 @@
+# Sample site navigation bar links
+- title: Latest
+  url: /blog/
+- title: Pinned
+  url: /blog/pinned/
+- title: Archive
+  url: /blog/posts-grid/
+- title: Categories
+  url: /blog/categories-grid/
+- title: Tags
+  url: /blog/tags-grid/
+- title: Search
+  url: /blog/search/

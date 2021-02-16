@@ -1,0 +1,19 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+sitemap: false
+---
+
+@charset "utf-8";
+
+@import "so-simple";
+
+$serif-font-family: "Roboto-Slab", bold;
+$sans-serif-font-family: "Lato",BlinkMacSystemFont,"Segoe UI",Helvetica,sans-serif;
+$monospace-font-family: "Lato",BlinkMacSystemFont,"Segoe UI",Helvetica, monospace;
+$codeblock-font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo; 
+
+$base-font-family: $monospace-font-family;
+$headline-font-family: $serif-font-family;
+$title-font-family: $serif-font-family;
+$description-font-family: $sans-serif-font-family;
+$meta-font-family: $monospace-font-family;

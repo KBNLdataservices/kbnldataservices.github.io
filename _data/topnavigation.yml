@@ -1,0 +1,8 @@
+# Sample site navigation bar links
+
+- title: Dataservices News
+  url: /blog/
+- title: Documentation
+  url: /public-docs
+- title: About
+  url: /about

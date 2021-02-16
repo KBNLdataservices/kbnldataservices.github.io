@@ -1,0 +1,15 @@
+# Sample Authors
+# Remove file or replace with your own
+KBNLDataservices:
+  name: KBNLDataservices
+  picture: /images/logo-zwart.png
+  twitter: "@KBdataservices"
+  links:
+    - title: Twitter
+      url: https://twitter.com/KBdataservices
+      icon: fab fa-twitter-square
+    - title: Github
+      url: https://github.com/KBNLdataservices
+      icon: fab fa-github-square
+
+

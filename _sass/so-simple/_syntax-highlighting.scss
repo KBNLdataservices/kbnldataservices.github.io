@@ -1,0 +1,70 @@
+/* ==========================================================================
+   Syntax highlighting
+   ========================================================================== */
+
+code {font-family: $codeblock-font-family;
+   font-size: 12px;}
+
+/* Inline code block */
+code.highlighter-rouge {
+  margin: 0;
+  padding: 0.2em 0.4em;
+  position: relative;
+  border: 1px solid $code-border-color ;
+  border-radius: 6px;
+}
+
+/* Multi-line code blocks */
+div.highlighter-rouge, figure.highlight {
+  position: relative;
+  margin-bottom: 1em;
+  line-height: 1.25;
+  border: 1px solid $code-border-color ;
+  border-radius: 6px;
+
+  > pre,
+  pre.highlight {
+    margin: 0;
+    padding: 1em;
+  }
+}
+
+.highlight pre {
+  width: 100%;
+}
+
+.highlight table {
+  margin-bottom: 0;
+  border: 0px solid;
+
+  td {
+    padding: 5px;
+    width: calc(100% - 1em);
+    border: 0px;
+
+    /* line numbers*/
+    &.gutter {
+      padding-right: 1em;
+      width: 1em;
+      border-right: 1px solid;
+      text-align: right;
+    }
+
+    /* code */
+    &.code {
+      padding-left: 1em;}
+  }
+
+  pre {
+    margin: 0;
+      font-family: $codeblock-font-family;
+      font-size: 12px;
+  }
+}
+
+.gist {
+  td,
+  th {
+    border-bottom: 0;
+  }
+}

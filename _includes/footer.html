@@ -1,0 +1,56 @@
+<footer id="footer" class="site-footer">{%- if site.data.footer -%}
+  <!-- Footer main -->
+  <section class="ft-main">{%- for block in site.data.footer -%}
+{%- if block.block == "footer_social_links" -%}
+    <div class="ft-main-item">
+      <h4>{{block.header}}</h4>
+      <span class="social-icons">{%- for link in block.links -%}
+           {%- if link.url contains "://" -%}
+             {%- assign url = link.url -%}
+           {%- else -%}
+             {%- assign url = link.url | relative_url -%}
+           {%- endif -%}
+        <a class="social-icon" href="{{ url }}">
+          <i class="{{ link.icon | default: 'fas fa-link' }} fa-2x" title="{{ link.title }}"></i>
+        </a>{%- endfor -%}
+      </span>
+    </div>{%- else -%}
+    <div class="ft-main-item">
+      <h4>{{block.header}}</h4>
+      <ul>{%- for link in block.links -%}
+           {%- if link.url contains "://" -%}
+             {%- assign url = link.url -%}
+           {%- else -%}
+             {%- assign url = link.url | relative_url -%}
+           {%- endif -%}
+        <li>
+          <a href="{{ url }}">{{ link.title }}</a>
+        </li>{%- endfor -%}
+      </ul>
+    </div>{%- endif -%}
+
+     {%- endfor -%}
+
+   {%- endif -%}
+    <div class="ft-main-item">
+      <img src="{{ site.logo | relative_url }}" class="site-logo-img-footer" alt="KBNL Dataservices">
+        <!--  <h2 class="ft-title">Stay Updated</h2>
+                          <p>Subscribe to our newsletter to get our latest news.</p>
+                          <form>
+                            <input type="email" name="email" placeholder="Enter email address">
+                            <input type="submit" value="Subscribe">
+                          </form> -->
+      </div>
+    </section>
+    <!-- Footer legal -->
+    <div class="copyright">{% if site.copyright %}
+      {{ site.copyright | markdownify }}
+    {% else %}
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}, {{ site.description }}.</p>
+      <p>All texts released under
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="nofollow">CC0 license</a>. {{ site.data.text[site.locale].powered_by | default: "This site is made with" }}
+        <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a>&amp;
+        <a href="https://github.com/mmistakes/so-simple-theme" rel="nofollow">So Simple</a>.
+      </p>{% endif %}
+    </div>
+  </footer>

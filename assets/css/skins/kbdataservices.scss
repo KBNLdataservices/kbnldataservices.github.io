@@ -1,0 +1,44 @@
+---
+---
+
+@charset "utf-8";
+
+@import "so-simple/functions";
+@import "so-simple/variables";
+@import "so-simple/notices";
+
+/* Colors */
+$base-color: #3c454e !default;
+$text-color: #3c454e !default;
+$accent-color: #01415b !default;
+$background-color: #fff !default;
+$border-color: #9cdbd9 !default;
+
+$nav-color: #000000 !default;
+$nav-background-color: #f37d8d !default;
+
+$primary-color: #000 !default;
+$success-color: #62c462 !default;
+$warning-color: #f37d8d !default;
+$danger-color: #ee5f5b !default;
+$info-color: #52adc8 !default;
+
+/* Syntax highlighting (base16) colors */
+$base00: #f8f8f8 !default;
+$base01: #073642 !default;
+$base02: #586e75 !default;
+$base03: #657b83 !default;
+$base04: #999988 !default;
+$base05: #999999 !default;
+$base06: #eee8d5 !default;
+$base07: #fdf6e3 !default;
+$base08: #a61717 !default;
+$base09: #009999 !default;
+$base0a: #445588 !default;
+$base0b: #d14 !default;
+$base0c: #000000 !default;
+$base0d: #008080 !default;
+$base0e: #000000 !default;
+$base0f: #d33682 !default;
+
+@import "so-simple/skin";

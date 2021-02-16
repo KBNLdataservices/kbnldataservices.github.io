@@ -1,0 +1,52 @@
+# Footer Links + social icons
+- block: kb_dataservices
+  header: KB Dataservices 
+  links:
+    - title: About
+      url: /about
+    - title: Our data
+      url: /our-data
+    - title: Data reuse
+      url: /data-reuse
+
+- block: resources
+  header: Resources
+  links:
+    - title: Documentation
+      url: /public-docs
+    - title: News
+      url: /blog
+    - title: Github
+      url: /github
+
+- block: contact
+  header: Contact
+  links:
+    - title: Email
+      url: /email
+    - title: Twitter
+      url: /twitter
+
+- block: legal
+  header: Legal
+  links:
+    - title: Terms &amp; Conditions
+      url: /terms-and-conditions
+    - title: Privacy Policy
+      url: /privacy-policy
+
+- block: footer_social_links
+  header: Follow us
+  links:
+    - title: Contact
+      url: /email
+      icon: fas fa-envelope
+    - title: Feed
+      url: atom.xml
+      icon: fas fa-rss-square
+    - title: Twitter
+      url: https://twitter.com/KBdataservices
+      icon: fab fa-twitter-square
+    - title: Github
+      url: https://github.com/KBNLdataservices
+      icon: fab fa-github-square

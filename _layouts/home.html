@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+{{ content }}
+
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {%- if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate -%}
+    {%- comment -%}
+      Add paginator.posts loop if jekyll-paginate plugin is enabled
+      and page.paginate == true
+    {%- endcomment -%}
+    {% include posts-paginated.html %}
+  {%- else -%}
+    {% include posts-limit.html %}
+  {%- endif -%}
+
+</div>
+
+<div class="entry-title notice--warning" style="padding-bottom: 0.002rem; padding-top: 1.5rem; text-align: center;"><h2><a href="/blog/posts-grid/" style="color:inherit;">See the archive for older articles</a></h2></div>
