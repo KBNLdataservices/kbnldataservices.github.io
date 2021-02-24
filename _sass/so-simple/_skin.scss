@@ -33,7 +33,8 @@ blockquote {
 
 .copyright {
   color: $background-color;
-  a {color: shade($background-color, 45%); }
+  a {color: #fff;
+     text-decoration: underline;} 
   background-color: $accent-color;
 
 }

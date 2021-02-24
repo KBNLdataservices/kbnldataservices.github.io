@@ -21,7 +21,7 @@ locale: en-US
 url: "https://kbnldataservices.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 title: "KB Dataservices"
-description: "dataservices of the KB, the national library of the Netherlands."
+description: "dataservices of the KB, the national library of the Netherlands"
 baseurl: "/"
 
 blogtitle: "KB Dataservices News"
