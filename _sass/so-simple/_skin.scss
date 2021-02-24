@@ -33,10 +33,9 @@ blockquote {
 
 .copyright {
   color: $background-color;
+  background-color: $accent-color;
   a {color: #ffffff;
     text-decoration: underline;} 
-  background-color: $accent-color;
-
 }
 
 .taxonomy-title {
