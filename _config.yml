@@ -18,11 +18,11 @@
 skin: "/assets/css/skins/kbdataservices.css"
 locale: en-US
 
-url: "https://kbnldataservices.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-
 title: "KB Dataservices"
 description: "dataservices of the KB, the national library of the Netherlands"
+url: "https://kbnldataservices.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "/"
+
 
 blogtitle: "KB Dataservices News"
 blogdescription: "News & updates about the dataservices of the KB, the national library of the Netherlands."
