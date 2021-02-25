@@ -1,3 +1,3 @@
-# KBNL Dataservices blog
+# KBNL Dataservices news & updates
 
-The code runnig [https://ookgezellig.github.io/blog/](https://ookgezellig.github.io/blog/)
+The code runnig [https://kbnldataservices.github.io](https://kbnldataservices.github.io)
