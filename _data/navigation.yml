@@ -4,10 +4,10 @@
 - title: Pinned
   url: /blog/pinned/
 - title: Archive
-  url: /blog/posts-grid/
+  url: /blog/posts/
 - title: Categories
-  url: /blog/categories-grid/
+  url: /blog/categories/
 - title: Tags
-  url: /blog/tags-grid/
+  url: /blog/tags/
 - title: Search
   url: /blog/search/
