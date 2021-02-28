@@ -107,7 +107,7 @@ tag_archive_path: "/tags-grid/#"
 collections:
   pinned:
     output: true
-    permalink: /:collection/:path/
+    permalink: /blog/:collection/:path/
 
 # Front Matter Defaults
 defaults:
