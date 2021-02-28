@@ -1,7 +1,7 @@
 ---
 title: Article archive
 layout: posts
-permalink: /blog/posts-grid/
+permalink: /blog/posts/
 show_excerpts: true
 entries_layout: grid
 ---
