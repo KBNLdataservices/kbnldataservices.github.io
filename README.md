@@ -29,9 +29,9 @@ If you want to contribute to this production repo (typically blogposts as .md fi
 
 1) Go to the ```gh-pages``` branch of the staging & test repo at [https://github.com/KBNLdataservices/kbnldataservices.github.io-staging/tree/gh-pages](https://github.com/KBNLdataservices/kbnldataservices.github.io-staging/tree/gh-pages) to develop & test your contributions. 
 
-2) You can visualize/preview your contributions via the staging site at [https://kbnldataservices.github.io/kbnldataservices.github.io-staging](https://kbnldataservices.github.io/kbnldataservices.github.io-staging). 
+2) You can visualize/preview your contributions in the staging site at [https://kbnldataservices.github.io/kbnldataservices.github.io-staging](https://kbnldataservices.github.io/kbnldataservices.github.io-staging). 
 
-3) Once you have tested & previewed your contributions and you think they are OK for production, you can submit them (via a pull request with a dedicated branch) to [this production repo](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages). 
+3) Once you have tested & previewed your contributions and you think they are OK for production, you can submit them (via a pull request with a dedicated branch) to the production repo at [https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages](https://github.com/KBNLdataservices/kbnldataservices.github.io/tree/gh-pages). 
 
 4) Once your submission has been approved (and merged into the ```gh-pages``` branch) by the admins of the production repo, you will see them in the  production site at [https://kbnldataservices.github.io](https://kbnldataservices.github.io).
 
