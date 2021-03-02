@@ -33,7 +33,7 @@ This production repo serves [https://kbnldataservices.github.io](https://kbnldat
 From its ```gh-pages``` branch it serves [https://kbnldataservices.github.io/public-docs-staging](https://kbnldataservices.github.io/public-docs-staging), the preview & test site for [https://kbnldataservices.github.io/public-docs](https://kbnldataservices.github.io/public-docs).
 
 4) [**kbnldataservices.github.io-staging**](https://github.com/KBNLdataservices/kbnldataservices.github.io-staging): the staging, test & development repo for the [kbnldataservices.github.io](https://github.com/KBNLdataservices/kbnldataservices.github.io) production repo.
-From its ```gh-pages``` branch it serves [https://kbnldataservices.github.io/kbnldataservices.github.io-staging](https://kbnldataservices.github.io/kbnldataservices.github.io-staging), the preview & test site for [https://kbnldataservices.github.io/kbnldataservices.github.io](https://kbnldataservices.github.io/kbnldataservices.github.io).
+From its ```gh-pages``` branch it serves [https://kbnldataservices.github.io/kbnldataservices.github.io-staging](https://kbnldataservices.github.io/kbnldataservices.github.io-staging), the preview & test site for [https://kbnldataservices.github.io](https://kbnldataservices.github.io).
 This subsite holds the same two groups of pages as described above at 2) 
 
 
